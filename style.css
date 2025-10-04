@@ -19,10 +19,10 @@ body {
     padding: 20px 0;
 }
 
-/* --- CORES DE DESTAQUE (SALMÃO/PINK E VERDE WHATSAPP) --- */
+/* --- CORES DE DESTAQUE: CINZA ESCURO/AZUL MARINHO (#1e2a38) --- */
 :root {
-    --accent-color: #FF7E90; /* Cor principal de destaque (Salmão/Pink) */
-    --accent-hover: #e5697a;
+    --accent-color: #1e2a38; /* Cor principal de destaque (Carvão Escuro) */
+    --accent-hover: #0e161f;
     --whatsapp-color: #28a745; /* Verde para máxima conversão */
 }
 
@@ -50,7 +50,7 @@ body {
 /* BOTÃO PRINCIPAL (CTA) */
 .cta-button {
     display: inline-block;
-    background-color: var(--accent-color); 
+    background-color: var(--accent-color); /* Carvão Escuro */
     color: white;
     padding: 18px 40px;
     text-decoration: none;
@@ -58,7 +58,7 @@ body {
     border-radius: 8px;
     font-size: 1.4em;
     transition: background-color 0.3s, transform 0.2s;
-    box-shadow: 0 4px 10px rgba(255, 126, 144, 0.5); 
+    box-shadow: 0 4px 10px rgba(30, 42, 56, 0.4); /* Sombra profissional */
 }
 
 .cta-button:hover {
@@ -79,9 +79,9 @@ body {
     width: 200px;
     height: 200px;
     object-fit: cover;
-    border-radius: 50%; /* Foto circular */
+    border-radius: 50%;
     margin-bottom: 20px;
-    border: 5px solid var(--accent-color); /* Borda com a cor de destaque */
+    border: 5px solid var(--accent-color);
 }
 
 .apresentacao-text {
@@ -170,7 +170,7 @@ body {
 }
 
 .pacote ul li:before {
-    content: "🚀 "; /* Ícone de foguete */
+    content: "🚀 "; 
     color: var(--accent-color); 
     font-weight: bold;
 }
@@ -179,7 +179,7 @@ body {
 .destaque {
     border-color: var(--whatsapp-color); 
     box-shadow: 0 0 25px rgba(40, 167, 69, 0.5);
-    background-color: #e6ffec; /* Fundo sutil esverdeado */
+    background-color: #e6ffec; 
 }
 
 .destaque h3 {
@@ -207,7 +207,7 @@ body {
 
 /* --- ESTILO DO RODAPÉ E RESPONSIVIDADE --- */
 footer {
-    background-color: #1e1e1e;
+    background-color: var(--accent-color); /* Fundo do rodapé escuro */
     color: white;
     padding: 40px 20px;
     text-align: center;
@@ -215,7 +215,7 @@ footer {
 
 .footer-wpp {
     display: inline-block;
-    color: var(--whatsapp-color);
+    color: #e0e0e0; /* Cor do texto no rodapé */
     font-weight: bold;
     text-decoration: none;
     font-size: 1.2em;
@@ -229,26 +229,5 @@ footer {
 }
 
 @media (max-width: 768px) {
-    .hero h1 {
-        font-size: 2.2em;
-    }
-
-    .apresentacao-content {
-        flex-direction: column;
-        text-align: center;
-    }
-    
-    .apresentacao-text {
-        max-width: 100%;
-    }
-
-    .diferenciais, .pacote-grid {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .pacote {
-        width: 90%;
-        max-width: 350px;
-    }
+    /* ... (manter as regras de responsividade) ... */
 }
