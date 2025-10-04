@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aulas de Inglês Online - [Giulia Cunha]</title> 
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <header class="hero">
+        <div class="container">
+            <h1>PARE de apenas ENTENDER. Comece a **FALAR** Inglês com Confiança!</h1>
+            <p>Aulas particulares online, dinâmicas e focadas 100% no seu desenvolvimento de conversação, como se você estivesse em um intercâmbio.</p>
+            
+            <a href="https://wa.me/5561991708445?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20minha%20aula%20experimental!" target="_blank" class="cta-button">
+                FALE AGORA: Agende sua Aula Experimental!
+            </a>
+        </div>
+    </header>
+
+    <section id="apresentacao" class="section">
+        <div class="container apresentacao-content">
+            
+            <img src="foto_professora.jpg" alt="Foto da Professora de Inglês" class="professor-photo">
+            
+            <div class="apresentacao-text">
+                <h2>Olá! Eu sou a [Nome da Professora]!</h2>
+                <p>Minha missão é transformar sua relação com o inglês. Chega de medo de falar! Nas minhas aulas, você pratica situações reais, aprende com exemplos dinâmicos (como no TikTok!) e constrói a fluência que precisa para viajar, crescer na carreira ou fazer intercâmbio.</p>
+                <p class="call-to-action-line">Pronta(o) para dar o próximo passo? Role para baixo e veja os pacotes!</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="sobre" class="section bg-light">
+        <div class="container">
+            <h2>Método Sem Enrolação: Nosso Foco é a Fluência Rápida.</h2>
+            <div class="diferenciais">
+                <div>Conversação Desde o Dia 1</div>
+                <div>Aulas 100% Personalizadas e Flexíveis</div>
+                <div>Foco na Pronúncia e Vocabulário Real</div>
+                <div>Material de Apoio Exclusivo</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pacotes" class="section">
+        <div class="container">
+            <h2>Escolha o Plano que Vai te Levar à Fluência</h2>
+            <div class="pacote-grid">
+                
+                <div class="pacote">
+                    <h3>Pacote Conversa Leve</h3>
+                    <p>Ideal para quem quer começar com calma, sem pressão.</p>
+                    <ul>
+                        <li>4 aulas por mês (1 por semana)</li>
+                        <li>Duração de 60 minutos</li>
+                        <li>Suporte por WhatsApp</li>
+                    </ul>
+                    <a href="https://wa.me/55XXXYYYYYYYY?text=Quero%20o%20Pacote%20Conversa%20Leve!" target="_blank" class="pacote-cta">
+                        Consultar Preço
+                    </a>
+                </div>
+
+                <div class="pacote **destaque**">
+                    <h3>Pacote Fluência Máxima</h3>
+                    <p>Nosso pacote mais popular! Foco total para avançar rápido.</p>
+                    <ul>
+                        <li>8 aulas por mês (2 por semana)</li>
+                        <li>Duração de 60 minutos</li>
+                        <li>Acesso a atividades extras e Desafios de Conversação</li>
+                    </ul>
+                    <a href="https://wa.me/55XXXYYYYYYYY?text=Quero%20o%20Pacote%20Flu%C3%AAncia%20M%C3%A1xima!" target="_blank" class="pacote-cta">
+                        GARANTIR O DESTAQUE!
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 [Nome da Professora] - Aulas de Inglês Online. Fale agora:</p>
+            <a href="https://wa.me/55XXXYYYYYYYY" target="_blank" class="footer-wpp">
+                (XX) XXXXX-XXXX
+            </a>
+            <p class="social-links">
+                <a href="LINK_DO_INSTAGRAM" target="_blank">Instagram</a> | 
+                <a href="LINK_DO_TIKTOK" target
