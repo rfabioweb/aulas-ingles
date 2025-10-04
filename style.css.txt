@@ -1,0 +1,254 @@
+/* REAJUSTE BÁSICO E FONTES MODERNAS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+    background-color: #ffffff; 
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* --- CORES DE DESTAQUE (SALMÃO/PINK E VERDE WHATSAPP) --- */
+:root {
+    --accent-color: #FF7E90; /* Cor principal de destaque (Salmão/Pink) */
+    --accent-hover: #e5697a;
+    --whatsapp-color: #28a745; /* Verde para máxima conversão */
+}
+
+/* --- ESTILO DA SEÇÃO PRINCIPAL (HERO) --- */
+.hero {
+    background-color: #f8f9fa; 
+    color: #1e1e1e;
+    text-align: center;
+    padding: 100px 20px;
+    border-bottom: 5px solid var(--accent-color); 
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.hero p {
+    font-size: 1.4em;
+    margin-bottom: 40px;
+    color: #555;
+}
+
+/* BOTÃO PRINCIPAL (CTA) */
+.cta-button {
+    display: inline-block;
+    background-color: var(--accent-color); 
+    color: white;
+    padding: 18px 40px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    font-size: 1.4em;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 10px rgba(255, 126, 144, 0.5); 
+}
+
+.cta-button:hover {
+    background-color: var(--accent-hover);
+    transform: translateY(-2px);
+}
+
+/* --- ESTILO DA APRESENTAÇÃO (TOQUE PESSOAL) --- */
+.apresentacao-content {
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center; 
+    justify-content: space-around; 
+    text-align: left;
+}
+
+.professor-photo {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%; /* Foto circular */
+    margin-bottom: 20px;
+    border: 5px solid var(--accent-color); /* Borda com a cor de destaque */
+}
+
+.apresentacao-text {
+    max-width: 60%;
+}
+
+.call-to-action-line {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: var(--accent-color);
+}
+
+
+/* --- ESTILO DAS SEÇÕES GERAIS E DIFERENCIAIS --- */
+.section {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: var(--accent-color); 
+    font-weight: 600;
+}
+
+.bg-light {
+    background-color: #f4f4f4;
+}
+
+.diferenciais {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.diferenciais div {
+    background: white;
+    padding: 25px;
+    margin: 15px;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #333;
+    width: 250px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* --- ESTILO DOS PACOTES --- */
+.pacote-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.pacote {
+    background: white;
+    border: 1px solid #e0e0e0;
+    padding: 40px;
+    border-radius: 12px;
+    width: 350px;
+    text-align: left;
+    transition: transform 0.4s, box-shadow 0.4s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.pacote h3 {
+    color: var(--accent-color);
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    border-bottom: 3px solid var(--accent-color);
+    padding-bottom: 10px;
+}
+
+.pacote ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 30px;
+}
+
+.pacote ul li {
+    padding: 8px 0;
+    font-size: 1em;
+}
+
+.pacote ul li:before {
+    content: "🚀 "; /* Ícone de foguete */
+    color: var(--accent-color); 
+    font-weight: bold;
+}
+
+/* PACOTE DESTAQUE */
+.destaque {
+    border-color: var(--whatsapp-color); 
+    box-shadow: 0 0 25px rgba(40, 167, 69, 0.5);
+    background-color: #e6ffec; /* Fundo sutil esverdeado */
+}
+
+.destaque h3 {
+    color: var(--whatsapp-color);
+    border-bottom-color: var(--whatsapp-color);
+}
+
+/* CTA DOS PACOTES */
+.pacote-cta {
+    display: block;
+    text-align: center;
+    background-color: var(--whatsapp-color); 
+    color: white;
+    padding: 12px 0;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+}
+
+.pacote-cta:hover {
+    background-color: #1e7e34;
+}
+
+/* --- ESTILO DO RODAPÉ E RESPONSIVIDADE --- */
+footer {
+    background-color: #1e1e1e;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-wpp {
+    display: inline-block;
+    color: var(--whatsapp-color);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 15px 0;
+}
+
+.social-links a {
+    color: #adb5bd;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.2em;
+    }
+
+    .apresentacao-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .apresentacao-text {
+        max-width: 100%;
+    }
+
+    .diferenciais, .pacote-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .pacote {
+        width: 90%;
+        max-width: 350px;
+    }
+}
